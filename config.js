@@ -12,7 +12,7 @@ var config = {
         {
             id: 'l',
             title: '出生',
-            image: '',
+            image: './timg.jpg',
             description: '屈原，约公元前340出生于楚国丹阳秭归（今湖北宜昌）。芈姓，屈氏，名平，字原；又自云名正则，字灵均。楚武王熊通之子屈瑕的后代。',
             location: {
                 center: [111.293, 30.747],
@@ -66,6 +66,20 @@ var config = {
                 zoom: 9,
                 pitch: 44.00,
                 bearing: -40.00
+            },
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '5',
+            title: 'About the project',
+            image: './4.jpg',
+            description: '文字来源：百度百科-屈原词条；图片来源：百度百科-屈原词条；制作类似项目欢迎查看Mapbox github网站。',
+            location: {
+                center: [110.183935,28.79475],
+                zoom: 6,
+                pitch: 0.00,
+                bearing: 0.00
             },
             onChapterEnter: [],
             onChapterExit: []

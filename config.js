@@ -67,12 +67,7 @@ var config = {
                 pitch: 44.00,
                 bearing: -40.00
             },
-            onChapterEnter: [
-                {
-                    layer: 'waterQ',
-                    opacity: 1
-                }
-            ],
+            onChapterEnter: [],
             onChapterExit: []
         }
     ]

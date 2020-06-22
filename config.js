@@ -72,9 +72,9 @@ var config = {
         },
         {
             id: '5',
-            title: 'About the project',
-            image: './4.jpg',
-            description: '文字来源：百度百科-屈原词条；图片来源：百度百科-屈原词条；制作类似项目欢迎查看Mapbox github网站。',
+            title: '最后的最后',
+            image: './rice-dumpling-1440871_640.jpg',
+            description: '屈原老先生虽离我们有千百年之远，但世世代代的人们仍通过各种方式纪念怀思，粽子便是最常见的一种～ 文字来源：百度百科-屈原词条；图片来源：百度百科-屈原词条；制作类似项目欢迎查看Mapbox github网站。',
             location: {
                 center: [110.183935,28.79475],
                 zoom: 6,

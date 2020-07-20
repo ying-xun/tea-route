@@ -2,15 +2,15 @@ var config = {
     style: 'mapbox://styles/xuying027/ckcso5vio1fmi1ijqrertakmi',
     accessToken: 'pk.eyJ1IjoieHV5aW5nMDI3IiwiYSI6ImNrOHBoejZ1dzA3bnMzbHBiZ3N0ZjZreHEifQ.93ExFsuhmgp6naHZ6j-tzQ',
     showMarkers: false,
-    alignment: 'left',
+    alignment: 'right',
     theme: 'dark',
     title: '万里茶道故事地图',
     subtitle: '从朝贡到商贸，以茶为媒的千年对话',
     byline: '',
-    footer: '详细故事请见《文化线路在中国》，东方出版中心，2020年，地图来自Mapbox',
+    footer: '详细故事请见《文化线路在中国》，东方出版中心，2020年，地图©Mapbox',
     chapters: [{
             id: '万里茶道线路简介',
-            title: '万里茶道线路简介',
+            title: '万里茶道 The Great Tea Route',
             image: '',
             description: '“万里茶道”是古代中国与北方各民族、国家之间以茶叶为主要商品的长距离贸易线路。这条道路的兴起晚于贯通亚欧大陆的古丝绸之路，在丝绸之路衰落后，成为欧亚大陆上最重要的国际商道。该线路南起中国南部的茶叶产地，经过水陆交替运输北上，穿过中国腹地，再由边境转运，辗转销往蒙古草原，经由西伯利亚向西，横跨亚欧大陆，最终到达圣彼得堡（今属俄罗斯）和欧洲。明清、民国时期，万里茶道的干线总长可达1.4万余公里，成为串联东亚南北农耕文明与游牧文明，以及亚洲文明与欧洲文明的重要线路。“万里茶道”的雏形初现，可以远溯到唐宋时期。经历了元代游牧文明与农耕文明的剧烈冲突与融合后，明清时期“万里茶道”的贸易达到极盛。“万里茶道”的遗产要素构成多元、活态发展特征显著，不但在中国的文化遗产体系中具有稀缺性，也是中、蒙、俄三国文化交往、商贸往来和共同发展的重要见证。',
             location: {
@@ -19,14 +19,14 @@ var config = {
                 pitch: 0.00,
                 bearing: 0.00
             },
-            onChapterEnter: [{
-                layer: 'gnpglaciers-2015',
-                opacity: 0.25
-            }],
+            //onChapterEnter: [{
+          //      layer: 'gnpglaciers-2015',
+         //       opacity: 0.25
+         //   }],
             onChapterExit: [{
-                layer: 'gnpglaciers-2015',
-                opacity: 0
-            }]
+         //       layer: 'gnpglaciers-2015',
+        //        opacity: 0
+       //     }]
         },
         {
             id: '山水茶路',
@@ -39,19 +39,19 @@ var config = {
                 pitch: 51.50,
                 bearing: -20.00
             },
-            onChapterEnter: [{
-                    layer: 'gnpglaciers-1998',
-                    opacity: 0.25
-                },
-                {
-                    layer: 'glaciernp-boundary',
-                    opacity: 0.25
-                }
-            ],
-            onChapterExit: [{
-                layer: 'glaciernp-boundary',
-                opacity: 0
-            }]
+        //    onChapterEnter: [{
+          //          layer: 'gnpglaciers-1998',
+          //          opacity: 0.25
+          //      },
+          //      {
+          //          layer: 'glaciernp-boundary',
+           //         opacity: 0.25
+          //      }
+        //    ],
+         //   onChapterExit: [{
+           //     layer: 'glaciernp-boundary',
+          //      opacity: 0
+         //   }]
         },
         {
             id: '山水茶路2',
@@ -64,13 +64,13 @@ var config = {
                 pitch: 51.50,
                 bearing: 0.00
             },
-            onChapterEnter: [],
-            onChapterExit: [
+       //     onChapterEnter: [],
+        //    onChapterExit: [
                 // {
                 //     layer: 'gnpglaciers-2015',
                 //     opacity: 0
                 // }
-            ]
+      //      ]
         },
         {
             id: '山水茶路3',
@@ -83,14 +83,14 @@ var config = {
                 pitch: 51.50,
                 bearing: 0.00
             },
-            onChapterEnter: [{
-                layer: 'gnpglaciers-2015',
-                opacity: 0.25
-            }],
-            onChapterExit: [{
-                layer: 'gnpglaciers-2015',
-                opacity: 0
-            }]
+       //     onChapterEnter: [{
+     //           layer: 'gnpglaciers-2015',
+        //        opacity: 0.25
+       //     }],
+         //   onChapterExit: [{
+          //      layer: 'gnpglaciers-2015',
+          //      opacity: 0
+         //   }]
         },
         {
             id: '南船北马1',
@@ -103,8 +103,8 @@ var config = {
                 pitch: 51.50,
                 bearing: 0.00
             },
-            onChapterEnter: [],
-            onChapterExit: []
+       //     onChapterEnter: [],
+         //   onChapterExit: []
         },
         {
             id: '南船北马2',
@@ -117,14 +117,14 @@ var config = {
                 pitch: 51.50,
                 bearing: 0.00
             },
-            onChapterEnter: [{
-                layer: 'gnpglaciers-2015',
-                opacity: 0.25
-            }],
-            onChapterExit: [{
-                layer: 'gnpglaciers-2015',
-                opacity: 0
-            }]
+       //     onChapterEnter: [{
+         //       layer: 'gnpglaciers-2015',
+         //       opacity: 0.25
+          //  }],
+          //  onChapterExit: [{
+           //     layer: 'gnpglaciers-2015',
+           //     opacity: 0
+        //    }]
         },
         {
             id: '南船北马3',
@@ -137,8 +137,8 @@ var config = {
                 pitch: 41.00,
                 bearing: 78.33
             },
-            onChapterEnter: [],
-            onChapterExit: []
+       //     onChapterEnter: [],
+          //  onChapterExit: []
         },
         {
             id: '苍茫草原',
@@ -151,13 +151,13 @@ var config = {
                 pitch: 51.50,
                 bearing: 0.00
             },
-            onChapterEnter: [{
-                layer: 'gnpglaciers-2015',
-                opacity: 0.25
-            }],
-            onChapterExit: [{
-                layer: 'gnpglaciers-2015',
-                opacity: 0
+       //     onChapterEnter: [{
+        //        layer: 'gnpglaciers-2015',
+         //       opacity: 0.25
+         //   }],
+         //   onChapterExit: [{
+          //      layer: 'gnpglaciers-2015',
+          //      opacity: 0
             }]
         },
         {
@@ -171,8 +171,8 @@ var config = {
                 pitch: 0.00,
                 bearing: 0.00
             },
-            onChapterEnter: [],
-            onChapterExit: []
+         //   onChapterEnter: [],
+         //   onChapterExit: []
         },
         {
             id: '万里茶道2',
@@ -185,14 +185,14 @@ var config = {
                 pitch: 0.00,
                 bearing: 0.00
             },
-            onChapterEnter: [{
-                layer: 'gnpglaciers-2015',
-                opacity: 0.25
-            }],
-            onChapterExit: [{
-                layer: 'gnpglaciers-2015',
-                opacity: 0
-            }]
+        //    onChapterEnter: [{
+        //        layer: 'gnpglaciers-2015',
+         //       opacity: 0.25
+         //   }],
+         //   onChapterExit: [{
+          //      layer: 'gnpglaciers-2015',
+         //       opacity: 0
+        //    }]
         },
         {
             id: '万里茶道3',
@@ -205,8 +205,8 @@ var config = {
                 pitch: 0.00,
                 bearing: 0.00
             },
-            onChapterEnter: [],
-            onChapterExit: []
+       //     onChapterEnter: [],
+         //   onChapterExit: []
         },
         {
             id: '万里茶道4',
@@ -219,14 +219,14 @@ var config = {
                 pitch: 0.00,
                 bearing: 0.00
             },
-            onChapterEnter: [{
-                layer: 'gnpglaciers-2015',
-                opacity: 0.25
-            }],
-            onChapterExit: [{
-                layer: 'gnpglaciers-2015',
-                opacity: 0
-            }]
+       //     onChapterEnter: [{
+        //        layer: 'gnpglaciers-2015',
+         //       opacity: 0.25
+         //   }],
+         //   onChapterExit: [{
+          //      layer: 'gnpglaciers-2015',
+          //      opacity: 0
+        //    }]
         },
         {
             id: '万里茶道5',
@@ -239,8 +239,8 @@ var config = {
                 pitch: 0.00,
                 bearing: 0.00
             },
-            onChapterEnter: [],
-            onChapterExit: []
+        //    onChapterEnter: [],
+         //   onChapterExit: []
         }
     ]
 };

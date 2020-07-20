@@ -67,9 +67,7 @@ var config = {
                 pitch: 51.50,
                 bearing: 0.00
             },
-       //     onChapterEnter: [],
-         //   onChapterExit: []
-        },
+             },
         {
             id: '南船北马2',
             title: '辗转北上：驿路上的生活与信仰',

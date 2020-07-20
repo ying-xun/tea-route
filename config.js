@@ -19,14 +19,6 @@ var config = {
                 pitch: 0.00,
                 bearing: 0.00
             },
-            //onChapterEnter: [{
-          //      layer: 'gnpglaciers-2015',
-         //       opacity: 0.25
-         //   }],
-            onChapterExit: [{
-         //       layer: 'gnpglaciers-2015',
-        //        opacity: 0
-       //     }]
         },
         {
             id: '山水茶路',
@@ -39,19 +31,6 @@ var config = {
                 pitch: 51.50,
                 bearing: -20.00
             },
-        //    onChapterEnter: [{
-          //          layer: 'gnpglaciers-1998',
-          //          opacity: 0.25
-          //      },
-          //      {
-          //          layer: 'glaciernp-boundary',
-           //         opacity: 0.25
-          //      }
-        //    ],
-         //   onChapterExit: [{
-           //     layer: 'glaciernp-boundary',
-          //      opacity: 0
-         //   }]
         },
         {
             id: '山水茶路2',
@@ -64,13 +43,6 @@ var config = {
                 pitch: 51.50,
                 bearing: 0.00
             },
-       //     onChapterEnter: [],
-        //    onChapterExit: [
-                // {
-                //     layer: 'gnpglaciers-2015',
-                //     opacity: 0
-                // }
-      //      ]
         },
         {
             id: '山水茶路3',
@@ -83,15 +55,7 @@ var config = {
                 pitch: 51.50,
                 bearing: 0.00
             },
-       //     onChapterEnter: [{
-     //           layer: 'gnpglaciers-2015',
-        //        opacity: 0.25
-       //     }],
-         //   onChapterExit: [{
-          //      layer: 'gnpglaciers-2015',
-          //      opacity: 0
-         //   }]
-        },
+      },
         {
             id: '南船北马1',
             title: '汉口：茶道上永远的重镇',
@@ -117,15 +81,7 @@ var config = {
                 pitch: 51.50,
                 bearing: 0.00
             },
-       //     onChapterEnter: [{
-         //       layer: 'gnpglaciers-2015',
-         //       opacity: 0.25
-          //  }],
-          //  onChapterExit: [{
-           //     layer: 'gnpglaciers-2015',
-           //     opacity: 0
-        //    }]
-        },
+            },
         {
             id: '南船北马3',
             title: '进家门，走口外：从晋商庄园到张家口',
@@ -137,9 +93,7 @@ var config = {
                 pitch: 41.00,
                 bearing: 78.33
             },
-       //     onChapterEnter: [],
-          //  onChapterExit: []
-        },
+              },
         {
             id: '苍茫草原',
             title: '苍茫草原：外销段线路',
@@ -151,15 +105,7 @@ var config = {
                 pitch: 51.50,
                 bearing: 0.00
             },
-       //     onChapterEnter: [{
-        //        layer: 'gnpglaciers-2015',
-         //       opacity: 0.25
-         //   }],
-         //   onChapterExit: [{
-          //      layer: 'gnpglaciers-2015',
-          //      opacity: 0
-            }]
-        },
+              },
         {
             id: '万里茶道',
             title: '万里茶道的线路价值',
@@ -171,9 +117,7 @@ var config = {
                 pitch: 0.00,
                 bearing: 0.00
             },
-         //   onChapterEnter: [],
-         //   onChapterExit: []
-        },
+            },
         {
             id: '万里茶道2',
             title: '万里茶道的线路价值',
@@ -185,15 +129,7 @@ var config = {
                 pitch: 0.00,
                 bearing: 0.00
             },
-        //    onChapterEnter: [{
-        //        layer: 'gnpglaciers-2015',
-         //       opacity: 0.25
-         //   }],
-         //   onChapterExit: [{
-          //      layer: 'gnpglaciers-2015',
-         //       opacity: 0
-        //    }]
-        },
+               },
         {
             id: '万里茶道3',
             title: '万里茶道的线路价值',
@@ -205,9 +141,7 @@ var config = {
                 pitch: 0.00,
                 bearing: 0.00
             },
-       //     onChapterEnter: [],
-         //   onChapterExit: []
-        },
+              },
         {
             id: '万里茶道4',
             title: '万里茶道的线路价值',
@@ -219,15 +153,7 @@ var config = {
                 pitch: 0.00,
                 bearing: 0.00
             },
-       //     onChapterEnter: [{
-        //        layer: 'gnpglaciers-2015',
-         //       opacity: 0.25
-         //   }],
-         //   onChapterExit: [{
-          //      layer: 'gnpglaciers-2015',
-          //      opacity: 0
-        //    }]
-        },
+               },
         {
             id: '万里茶道5',
             title: '万里茶道的线路价值',
@@ -239,8 +165,6 @@ var config = {
                 pitch: 0.00,
                 bearing: 0.00
             },
-        //    onChapterEnter: [],
-         //   onChapterExit: []
-        }
+       }
     ]
 };
